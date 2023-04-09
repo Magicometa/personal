@@ -1,9 +1,70 @@
 /*Copyright by Antonio Romero Bravo*/
 
+body {
+    min-width: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-size: 2600px;
+    background-image: url("../img/fondo.jpg");
+    background-blend-mode: luminosity;
+
+}
+
 div {
-    height: 250px;
-    background-color: purple;
-    color: white;
+    min-width: 300px;
+    min-height: 80px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 166, 0, 0.5);
+    font-size: 1em;
+    margin: 1px 2px;
+    text-align: center;
+    /*border: 1px black solid;*/
+    padding: 2px 1px;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.container-fluid {
+    margin: auto;
+    min-width: 350px;
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+
+.main_menu {
+    border-radius: 0px;
+    background-color: rgba(255, 145, 0, 0.5);
+    border: none;
+    margin-bottom: 10px;
+}
+
+.row {
+    background-color: rgba(252, 251, 187, 0.5);
+    margin: 5px 0px 3px 0px;
+
+}
+
+.col {
+    background-color: rgb(202, 202, 202, 0.5);
+    margin: 5px 3px 3px 3px;
+}
+
+/*Iconos de bootstrap - tratados como texto*/
+.bi {
     font-size: 50px;
-    margin: 20px;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.foot-menu {
+    min-height: 200px;
+    border-radius: 0px;
+    border: none;
+    background-color: rgba(255, 166, 0, 0.5);
+    margin-top: 10px;
 }
