@@ -4,31 +4,58 @@ body {
     min-width: 350px;
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center 0px;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: 2600px;
     background-image: url("../img/fondo.jpg");
     background-blend-mode: luminosity;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
 
 }
 
 section {
     color: rgba(255, 174, 0);
+    max-width: 1300px;
     text-align: center;
+    margin-bottom: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-div {
+.marco {
     min-width: 300px;
     min-height: 80px;
     color: rgb(0, 0, 0);
     background-color: rgba(255, 166, 0, 0.5);
-    font-size: 1em;
-    /*margin: 1px 2px;*/
     text-align: center;
-    /*border: 1px black solid;*/
-    /*padding: 2px 1px;*/
+    text-shadow: 3px 3px 3px black;
     border-radius: 10px;
-    border: 1px white solid;
+    border: 2px white solid;
+
 }
+
+.img_back {
+    background-image: url("../img/degradados.png");
+    background-position: center 0px;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+}
+
+
+
+
 
 /*NAVBAR --------Barra de navegación-----------------------*/
 .sin_borde {
@@ -51,6 +78,7 @@ div {
     border: none;
     min-width: 350px;
     background-color: rgba(0, 0, 0, 0);
+
 }
 
 /*Area del menu/enlaces */
@@ -66,19 +94,42 @@ div {
     justify-content: space-between;
 }
 
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .icon_nav {
         display: none;
     }
 }
 
-/*HEAD ------- Cabecera ----------------------------------------*/
-.container {
-    margin-bottom: 10px;
+/*Hero ---------------------------------------------*/
+
+.img-hero {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    border: 5px rgba(255, 255, 255, 0.301) solid;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
 }
 
-.primer_c {
+.hero {
+    min-width: 350px;
+    /*min-height: 450px;*/
+    color: white;
+    background-color: rgba(255, 166, 0, 0.5);
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    border: 1px white solid;
     margin-top: 90px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -111,6 +162,7 @@ div {
 
 .foot-menu {
     min-height: 200px;
+    min-width: 380px;
     border-radius: 0px;
     border: none;
     background-color: rgba(255, 166, 0, 0.5);
