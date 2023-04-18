@@ -1,17 +1,17 @@
 /*Copyright by Antonio Romero Bravo*/
 /*Fonts ------------------------*/
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Cinzel', serif;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -116,6 +116,8 @@ section {
     }
 }
 
+
+
 /*Hero ---------------------------------------------*/
 
 .img-hero {
@@ -150,7 +152,27 @@ section {
 
 /*About me -------------------------------------*/
 
+.back_white {
+    min-width: 450px;
+    color: black;
+    padding: 25px;
+    background-color: rgba(255, 215, 120, 0.7);
+    /*background-color: rgb(255, 255, 255);*/
+    /*text-shadow: 2px 2px 2px black;*/
+    border-top: 4px rgba(255, 174, 0) solid;
+    border-bottom: 4px rgba(255, 174, 0) solid;
+}
 
+@media screen and (max-width: 350px) {
+    .back_white {
+        /*color: red;*/
+        margin-left: 100px;
+    }
+
+    .hero {
+        margin-left: 100px;
+    }
+}
 
 
 
