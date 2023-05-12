@@ -8,6 +8,7 @@ h1 {
 h2 {
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -16,7 +17,7 @@ p {
 }
 
 body {
-    min-width: 350px;
+    min-width: 300px;
     background-color: rgba(0, 0, 0, 0.5);
     background-position: center 0px;
     /*background-repeat: no-repeat;*/
@@ -32,27 +33,14 @@ body {
 }
 
 
+
 section {
     color: rgba(255, 174, 0);
-    max-width: 1300px;
     text-align: center;
     margin-bottom: 10px;
-    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-}
-
-.marco {
-    min-width: 300px;
-    min-height: 80px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 166, 0, 0.5);
-    text-align: center;
-    text-shadow: 3px 3px 3px black;
-    border-radius: 10px;
-    border: 2px white solid;
 
 }
 
@@ -69,7 +57,6 @@ section {
 
 /*NAVBAR --------Barra de navegación-----------------------*/
 .sin_borde {
-    border-radius: 0px;
     border: none;
     background-color: rgba(255, 174, 0);
 }
@@ -78,25 +65,25 @@ section {
 .navbar-toggler {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 25px;
     background-color: rgba(255, 174, 0);
-    border: 1px gray solid;
+    border: 1px rgb(255, 255, 255) solid;
 }
 
 /*Controla el area del botón colapsado*/
 .navbar {
     margin-top: -10px;
     border: none;
-    min-width: 350px;
+    min-width: 300px;
     background-color: rgba(0, 0, 0, 0);
 
 }
 
 /*Area del menu/enlaces */
 .collapse {
-    max-width: 1320px;
+    max-width: 1024px;
     margin: auto;
     padding: 10px;
-    /*border: 2px red solid;*/
 }
 
 .navbar-collapse {
@@ -122,8 +109,8 @@ section {
 
 .img-hero {
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border: 5px rgba(255, 255, 255, 0.301) solid;
     display: flexbox;
     justify-content: center;
@@ -131,8 +118,8 @@ section {
 }
 
 .hero {
-    min-width: 350px;
-    /*min-height: 450px;*/
+    min-width: 300px;
+    padding: 10px;
     color: white;
     background-color: rgba(255, 166, 0, 0.5);
     text-align: center;
@@ -142,37 +129,45 @@ section {
     margin-top: 90px;
     display: flex;
     align-items: center;
+
 }
 
 .hero_skills {
+    margin: 0px 75px;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+.h_text {
+    max-width: 500px;
     margin: auto;
-    max-width: 750px;
-    min-width: 500px;
 }
 
 /*About me -------------------------------------*/
 
 .back_white {
-    min-width: 450px;
+    padding: 20px;
     color: black;
-    padding: 25px;
     background-color: rgba(255, 215, 120, 0.7);
-    /*background-color: rgb(255, 255, 255);*/
-    /*text-shadow: 2px 2px 2px black;*/
     border-top: 4px rgba(255, 174, 0) solid;
     border-bottom: 4px rgba(255, 174, 0) solid;
 }
 
-@media screen and (max-width: 350px) {
-    .back_white {
-        /*color: red;*/
-        margin-left: 100px;
-    }
-
-    .hero {
-        margin-left: 100px;
-    }
+.area_am {
+    width: 100%;
 }
+
+
+
+.about_me {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+
+
+
 
 
 
@@ -200,11 +195,39 @@ section {
     margin: 10px;
 }
 
-.foot-menu {
-    min-height: 200px;
-    min-width: 380px;
-    border-radius: 0px;
-    border: none;
+
+
+/*Foot*/
+.stylefoot {
+    width: 100%;
+    padding: 25px;
     background-color: rgba(255, 166, 0, 0.5);
-    margin-top: 10px;
+    color: white;
+
+}
+
+.foot {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 350px) {
+    .hero {
+        margin-left: 75px;
+    }
+
+    .area_am {
+        min-width: 450px;
+        padding-left: 50px;
+        margin-left: 25px;
+    }
+
+    .stylefoot {
+        min-width: 450px;
+        padding-left: 100px;
+        margin-left: 25px;
+    }
 }
