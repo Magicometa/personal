@@ -191,27 +191,6 @@ div {
     flex: 1 1 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.row {
-    background-color: rgba(252, 251, 187, 0.5);
-    margin: 5px 0px 3px 0px;
-
-}
-
-.col {
-    background-color: rgb(202, 202, 202, 0.5);
-    margin: 5px 3px 3px 3px;
-}
-
 /*Iconos de bootstrap - tratados como texto*/
 .bi {
     font-size: 50px;
@@ -235,6 +214,11 @@ div {
     padding: 0;
     display: flex;
     justify-content: center;
+
+}
+
+.foot p {
+    font-size: 0.8em;
 }
 
 
