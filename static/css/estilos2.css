@@ -54,15 +54,19 @@ a.nav-link:focus {
     background-blend-mode: soft-light;
 }
 
-/*Margen entre el menu y la página*/
 .margin {
     margin-top: 50px;
 }
 
 section {
-    margin: 5px;
+    color: rgba(255, 174, 0);
     width: 100%;
     min-width: 350px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*NAVBAR --------Barra de navegación-----------------------*/
@@ -74,8 +78,8 @@ section {
 
 /*Botón navbar en modo colapsado*/
 .navbar-toggler {
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 25px;
     background-color: rgba(255, 174, 0);
     border: 1px rgb(255, 255, 255) solid;
@@ -159,7 +163,6 @@ section {
 .back_yellow {
     padding: 20px;
     color: black;
-    text-align: center;
     background-color: rgba(255, 215, 120, 0.7);
     border-top: 4px rgba(255, 174, 0) solid;
     border-bottom: 4px rgba(255, 174, 0) solid;
@@ -200,8 +203,6 @@ section {
 }
 
 .cont_sk {
-    color: rgba(255, 174, 0);
-    text-align: center;
     flex: 1 1 300px;
     text-shadow: 3px 3px 3px rgb(34, 34, 34);
     border: 2px rgb(228, 174, 0) solid;
